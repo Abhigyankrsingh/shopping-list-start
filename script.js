@@ -17,7 +17,11 @@ function addItem(e) {
         return;
     }
 
-    console.log('Success');
+   const li = document.createElement('li');
+
+   li.appendChild(document.createTextNode(newItem));
+
+   console.log(li);
 }
 
 
